@@ -1,0 +1,114 @@
+form{
+    gap: 20rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 90%;
+    background-image: linear-gradient(white, dimgrey);
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.buttons a#goback{
+    width: 150%;
+    font-size: 15pt;
+    text-decoration: none;
+    color: black;
+
+}
+
+.buttons a#goback:hover{
+    color: blue;
+}
+
+select#select{
+    padding: 10px;
+}
+
+input{
+    padding: 5px;
+    width: 100%;
+    font-size: 20pt;
+}
+
+input#range{
+    width: 60%;
+}
+
+.form{
+  width: 60%;
+}
+
+.radio{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#gender,#gender2{
+    display: flex;
+    width: 2%;
+}
+.titol h1{
+    margin: 0;
+    font-family: Impact;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.buttons input#submit:hover{
+    background-color: greenyellow;
+}
+
+.buttons input#reset:hover{
+    background-color: red;
+}
+
+
+.form {
+}
+
+.range_form{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    width: 60%;
+    gap: 25px;
+}
+
+.range2{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+label{
+    font-size: 12pt;
+    font-family: sans-serif;
+}

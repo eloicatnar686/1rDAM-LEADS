@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PilotVlog 3.1/Contact</title>
+    <link type="text/css" rel="stylesheet" href="style_form.css">
+    <meta name="description" content="A contact form for PilotVlog users">
+    <meta name="author" content="Eloi Moreno Olivella">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+    <form action="#">
+        <div class="main">
+        <div class="titol">
+            <h1>Contact us</h1>
+        </div>
+        <div class="form">
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name">
+        </div>
+        <div class="form">
+            <label for="lastname">Enter yout last name: </label>
+            <input type="text" id="lastname">
+        </div>
+        <div class="form">
+            <label for="email">Enter your e-mail: </label>
+            <input type="email" id="email">
+        </div>
+        <div class="form">
+            <label for="password">Enter new password: </label>
+            <input type="password" id="password">
+        </div>
+        <div class="radio">
+            <label> Enter your gender: </label> <br>
+            <input type="radio" id="gender" value="Male" name="gender">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender2" value="Female" name="gender">
+            <label for="gender2">Female</label>
+
+        </div>
+        <div class="form">
+            <label for="color">Enter color for profile: </label>
+            <input type="color" id="color">
+        </div>
+        <div class="form">
+            <label for="select">Select a language: </label>
+            <select id="select">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+            </select>
+        </div>
+        <div class="range_form">
+            <label for="range">What is your knowledge level of aviation? </label>
+            <div class="range2">
+            <label> 0 </label>
+            <input type="range" id="range" min="0" max="10">
+            <label> 10 </label>
+            </div>    
+        </div>
+        <div class="form">
+            <label for="bday"> Enter your birthday: </label>
+            <input type="date" id="bday">
+        </div>
+        <div class="buttons">
+            <input type="submit" id="submit">
+            <input type="reset" id="reset">
+            <a href="index.html" id="goback">Go Back...</a>
+        </div>
+        </div>
+    </form>
+
+        
+</body>
+</html>
